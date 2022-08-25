@@ -1,5 +1,17 @@
 .pb-none {
-  padding-bottom: 0;
+  padding: 0;
+}
+.benefits {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .benefits__overtittle {
   display: flex;
@@ -12,7 +24,17 @@
 }
 .benefits__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+}
+.benefits__item {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 30px) / 2);
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 90px) / 4);
+  }
 }
 
 .benefits__subtitle {
