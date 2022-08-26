@@ -3,19 +3,19 @@
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
-  @media screen and (min-width: 768px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
   }
 }
 .team__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $cardSetGap;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: $cardSetGap;
+  }
 }
 .team__item {
   width: 270px;
