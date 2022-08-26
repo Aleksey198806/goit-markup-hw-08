@@ -1,16 +1,6 @@
 .client {
   background-color: #ffffff;
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  @media screen and (min-width: 768px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  @media screen and (min-width: 1200px) {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
 }
 .client__title {
   margin-top: 0px;
@@ -25,18 +15,17 @@
 .companies__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: $cardSetGap;
 }
 .companies__item {
-  width: 100%;
-  @media screen and (min-width: 480px) {
-    width: calc((100% - 30px) / 3);
-  }
+  flex-basis: calc((100% - 30px) / 2);
   @media screen and (min-width: 768px) {
-    width: calc((100% - 60px) / 4);
+    flex-basis: calc((100% - 30px * 2) / 3);
   }
+
   @media screen and (min-width: 1200px) {
-    width: calc((100% - 90px) / 7);
+    flex-basis: calc((100% - 30px * 5) / 6);
   }
 }
 .companies__link-icon {
