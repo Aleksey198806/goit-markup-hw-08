@@ -18,6 +18,10 @@
 }
 // scss variables
 
+// logo color
+$logoWhite: #ffffff;
+$logoBlack: #000000;
+
 $accentColor: #2196f3;
 
 $primaryTextColor: #757575;
@@ -38,9 +42,11 @@ $btnfontColor: #ffffff;
 $btnbackColor: #2196f3;
 
 $fontFamily: sans-serif;
+$fontRaleway: Raleway, sans-serif;
 
 $cardSetGap: 30px;
 
+$portfolioBorder: 1px solid #eeeeee;
 $headerBorder: 1px solid #ececec;
 
 $shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),

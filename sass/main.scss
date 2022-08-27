@@ -5,7 +5,8 @@
 @import "./utils/variables";
 @import "./utils/visualy-hidden";
 // * Header
-@import "./components/header";
+@import "./components/header/header";
+
 // * hero
 @import "./components/hero";
 // * Преимущетва
@@ -24,6 +25,7 @@
 // * Modal
 @import "./components/modal/backdrop";
 @import "./components/modal/modal";
+
 // * Forma cube
 @import "./components/modal/form";
 // * CHECKBOX
