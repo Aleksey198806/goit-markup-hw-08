@@ -52,12 +52,13 @@
 
 .contacts__list,
 .navigation__list {
-  display: flex;
+  display: none;
   gap: 50px;
 }
 
 .header__contacts {
   margin-left: auto;
+  display: none;
 }
 
 .contacts__tel {
@@ -89,4 +90,14 @@
 .contacts__icon {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.menu-open {
+  margin-left: auto;
+  padding: 0;
+  z-index: 2;
+  height: 40px;
+  border: none;
+  background: #ffffff;
+  transition: $transitionColor;
 }

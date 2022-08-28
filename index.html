@@ -71,6 +71,11 @@
             </li>
           </ul>
         </div>
+        <button class="menu-open" type="button">
+          <svg class="menu-icon" width="40" height="40">
+            <use href="./images/icons.svg/symbol-defs-icon.svg#menu40px"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- main -->
@@ -148,7 +153,8 @@
         </div>
       </section>
       <!-- Примеры работ  -->
-      <!-- <section class="examples section">
+      <section class="examples section">
+        -->
         <div class="examples__content conteiner">
           <h2 class="examples__title title">Чим ми займаємося</h2>
           <ul class="examples__list list">
@@ -166,7 +172,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
+      -->
       <!-- Наша команда  -->
       <section class="team section">
         <div class="team__content conteiner">
@@ -603,18 +610,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
-    <script>
-      (() => {
-        document
-          .querySelector(".js-speaker-form")
-          .addEventListener("submit", (e) => {
-            new FormData(e.currentTarget).forEach((value, name) =>
-              console.log(`${name}: ${value}`)
-            );
-          });
-      })();
-    </script>
   </body>
 </html>
