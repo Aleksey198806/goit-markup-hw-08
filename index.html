@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-07</title>
+    <title>goit-markup-hw-08</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -19,13 +19,13 @@
     <!-- Шапка -->
 
     <header class="header">
-      <div class="header__content conteiner box">
-        <a href="/" class="header__logo link"
-          ><span class="header__logo-text">Web</span>Studio</a
+      <div class="conteiner">
+        <a href="/" class="logo logo__header logo--dark link""
+          ><span class="logo__text">Web</span>Studio</a
         >
 
         <nav class="navigation">
-          <ul class="navigation__list list box">
+          <ul class="navigation__list list">
             <li class="navigation__item">
               <a href="" class="navigation__link link current">Студія</a>
             </li>
@@ -45,11 +45,10 @@
         </nav>
 
         <!-- Шапка  contacts -->
-        <div class="contacts header__contacts">
-          <ul class="contacts__list list">
+          <ul class="contacts contacts__header list">
             <li class="contacts__item">
               <a href="mailto:info@devstudio.com" class="contacts__tel link"
-                ><svg class="contacts__icon" width="16" height="12">
+                ><svg class="contacts__icon email" width="16" height="12">
                   <use
                     href="./images/icons.svg/symbol-defs-icon.svg#envelope"
                   ></use>
@@ -62,7 +61,7 @@
                 href="tel:+380961111111"
                 class="contacts__tel icon-vector link"
               >
-                <svg class="contacts__icon" width="10" height="16">
+                <svg class="contacts__icon tel" width="10" height="16">
                   <use
                     href="./images/icons.svg/symbol-defs-icon.svg#vector"
                   ></use></svg
@@ -70,21 +69,83 @@
               </a>
             </li>
           </ul>
-        </div>
         <button class="menu-open" type="button">
-          <svg class="menu-icon" width="40" height="40">
+          <svg class="menu-open__icon" width="40" height="40">
             <use href="./images/icons.svg/symbol-defs-icon.svg#menu40px"></use>
           </svg>
         </button>
+      </div>
+       <div class="mob-menu is-hidden">
+        <div class="mob-content-wrap">
+          <div class="mob-menu-top">
+            <button type="button" class="menu-close">
+              <svg class="menu-close__icon" width="40" height="40">
+                <use
+                  href="./images/icons/symbol-defs.svg#icon-menu-close"
+                ></use>
+              </svg>
+            </button>
+            <nav class="mob-nav">
+              <ul class="mob-nav__list list box">
+                <li class="mob-nav__item">
+                  <a href="" class="mob-nav__link link current">Студія</a>
+                </li>
+                <li class="mob-nav__item">
+                  <a
+                    href="./portfolio.html"
+                    target="_self"
+                    rel="norefferer noopener nofollow"
+                    class="mob-nav__link link"
+                    >Портфоліо</a
+                  >
+                </li>
+                <li class="mob-nav__item">
+                  <a href="" class="mob-nav__link link">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="mob-menu-botom">
+            <ul class="mob-contacts mob-contacts__header list box">
+              <li class="mob-contacts__item">
+                <a href="tel:+380961111111" class="mob-contacts__tel link">
+                  +38 096 111 11 11</a
+                >
+              </li>
+              <li class="mob-contacts__item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mob-contacts__email link"
+                >
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mob-socials socials__gap list">
+              <li class="mob-socials__item">
+                <a class="mob-socials__link link" href="">Instagram</a>
+              </li>
+              <li class="mob-socials__item">
+                <a class="mob-socials__link link" href="">Twitter</a>
+              </li>
+              <li class="mob-socials__item">
+                <a class="mob-socials__link link" href="">Facebook</a>
+              </li>
+              <li class="mob-socials__item">
+                <a class="mob-socials__link link" href="">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <!-- main -->
     <main>
       <!-- Герой -->
       <section class="hero">
-        <div class="hero__content conteiner">
+        <div class="conteiner">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero__button" data-modal-open>
+          <button type="button" class="hero-btn button" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -420,7 +481,8 @@
       </section>
     </main>
     <!-- footer -->
-    <!-- <footer class="footer">
+    <footer class="footer">
+      -->
       <div class="conteiner box">
         <div class="footer__block">
           <a href="/" class="footer__logo link"
@@ -502,7 +564,8 @@
           </div>
         </form>
       </div>
-    </footer> -->
+    </footer>
+    -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-button" data-modal-close>
