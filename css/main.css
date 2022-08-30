@@ -1147,8 +1147,8 @@ p {
 }
 .backdrop.is-hidden {
   opacity: 0;
-  -webkit-transform: scale(0);
-          transform: scale(0);
+  -webkit-transform: translateY(50deg);
+          transform: translateY(50deg);
   pointer-events: none;
 }
 
@@ -1183,8 +1183,6 @@ p {
 }
 .modal__btn:hover, .modal__btn:focus {
   fill: var(--accent-color);
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
 }
 
 .modal {

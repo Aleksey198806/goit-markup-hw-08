@@ -19,7 +19,7 @@
   }
   &.is-hidden {
     opacity: 0;
-    transform: scale(0);
+    transform: translateY(50deg);
     pointer-events: none;
   }
 }
