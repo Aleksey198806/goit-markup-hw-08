@@ -953,7 +953,6 @@ p {
 
 /*----------BASEMENT------------*/
 .footer {
-  text-align: center;
   padding: 60px 0;
   background-color: var(--sec-bcg-color);
 }
