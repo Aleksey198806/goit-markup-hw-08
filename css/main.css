@@ -633,7 +633,7 @@ p {
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-/*----------ACTIVITY------------*/
+/*----examples-----*/
 .examples {
   background-color: var(--first-bcg-color);
   text-align: center;
@@ -644,7 +644,6 @@ p {
   }
 }
 
-/* activity cards block */
 .examples-cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -879,7 +878,7 @@ p {
   color: var(--light-titles-color);
 }
 
-.socials__basement {
+.socials__footer {
   gap: 10px;
 }
 
@@ -953,21 +952,21 @@ p {
 }
 
 /*----------BASEMENT------------*/
-.basement {
+.footer {
   text-align: center;
   padding: 60px 0;
   background-color: var(--sec-bcg-color);
 }
-.basement__block {
+.footer__block {
   display: inline-block;
   max-width: 232px;
 }
 @media screen and (max-width: 1199px) {
-  .basement__block {
+  .footer__block {
     margin-bottom: 60px;
   }
 }
-.basement__logo {
+.footer__logo {
   margin-bottom: 20px;
 }
 
@@ -978,7 +977,7 @@ p {
   letter-spacing: 0.03em;
   color: var(--light-titles-color);
 }
-.address__basement {
+.address__footer {
   margin-bottom: 8px;
 }
 .address__item:not(:last-child) {

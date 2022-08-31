@@ -1,5 +1,5 @@
 /*----------BASEMENT------------*/
-.basement {
+.footer {
   text-align: center;
   padding: 60px 0;
   background-color: var(--sec-bcg-color);
@@ -22,7 +22,7 @@
   line-height: $text-lh-main;
   letter-spacing: $text-ls-main;
   color: var(--light-titles-color);
-  &__basement {
+  &__footer {
     margin-bottom: 8px;
   }
   &__item:not(:last-child) {
