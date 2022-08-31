@@ -1,4 +1,4 @@
-.site-nav__list {
+.navigation__list {
   gap: 50px;
   display: none;
   @media screen and(min-width:768px) {
@@ -6,7 +6,7 @@
   }
 }
 
-.site-nav__link {
+.navigation__link {
   position: relative;
   display: block;
   font-weight: 500;
