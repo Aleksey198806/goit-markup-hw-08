@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   transform: rotate(0deg);
-  transition: transform var(--transition-main), fill var(--transition-main);
+  transition: transform var(--cubic), fill var(--cubic);
   width: 30px;
   height: 30px;
   background-color: var(--first-bcg-color);

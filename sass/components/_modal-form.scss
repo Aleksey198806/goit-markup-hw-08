@@ -32,7 +32,7 @@
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
-  transition: fill var(--transition-main);
+  transition: fill var(--cubic);
   .form__input:focus + & {
     fill: var(--accent-color);
   }

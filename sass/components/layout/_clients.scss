@@ -23,7 +23,7 @@
   }
   &__icon {
     fill: var(--link-color);
-    transition: fill var(--transition-main);
+    transition: fill var(--cubic);
     .partners__link:hover &,
     .partners__link:focus & {
       fill: var(--accent-color);
@@ -38,7 +38,7 @@
   height: 92px;
   border: 1px solid var(--link-color);
   border-radius: 4px;
-  transition: border-color var(--transition-main);
+  transition: border-color var(--cubic);
   &:hover,
   &:focus {
     border-color: var(--accent-color);

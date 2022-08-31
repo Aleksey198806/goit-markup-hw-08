@@ -23,8 +23,8 @@
   border: 2px solid #000000;
   border-radius: 2px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: border var(--transition-main),
-    background-color var(--transition-main), box-shadow var(--transition-main);
+  transition: border var(--cubic), background-color var(--cubic),
+    box-shadow var(--cubic);
 
   .checkbox__input:checked + .checkbox__label & {
     border: none;
@@ -39,7 +39,7 @@
 
 .checkbox__icon {
   fill: transparent;
-  transition: fill var(--transition-main);
+  transition: fill var(--cubic);
   .checkbox__input:checked + .checkbox__label & {
     fill: var(--light-titles-color);
   }
@@ -63,7 +63,7 @@
   display: block;
   padding: 10px 52px;
   margin: 30px auto 0 auto;
-  transition: background-color var(--transition-main);
+  transition: background-color var(--cubic);
   background-color: var(--first-bcg-btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--light-titles-color);

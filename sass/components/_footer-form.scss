@@ -20,7 +20,7 @@
   height: 50px;
   padding: 15px 16px;
   margin-bottom: 20px;
-  transition: border var(--transition-main);
+  transition: border var(--cubic);
   outline: transparent;
   font-size: 16px;
   line-height: 1.25;
@@ -51,8 +51,8 @@
   padding: 10px 28px;
   margin-left: auto;
   margin-right: auto;
-  transition: box-shadow var(--transition-main);
-  transition: background-color var(--transition-main);
+  transition: box-shadow var(--cubic);
+  transition: background-color var(--cubic);
   &:hover,
   &:focus {
     box-shadow: none;

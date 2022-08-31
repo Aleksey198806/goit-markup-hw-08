@@ -14,7 +14,7 @@
   font-size: $link-fs-main;
   line-height: $link-lh-main;
   letter-spacing: $link-ls-main;
-  transition: color var(--transition-main);
+  transition: color var(--cubic);
 
   &:hover,
   &:focus {

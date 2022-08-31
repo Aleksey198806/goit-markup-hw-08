@@ -85,8 +85,7 @@
   padding: 10px 24px;
   margin: 0 auto;
   font-family: inherit;
-  transition: color var(--transition-main),
-    background-color var(--transition-main);
+  transition: color var(--cubic), background-color var(--cubic);
   @media screen and(min-width: 1200px) {
     padding: 10px 32px;
   }

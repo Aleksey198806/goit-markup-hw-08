@@ -34,7 +34,7 @@
     line-height: $link-lh-sec;
     letter-spacing: $link-ls-sec;
     color: var(--basement-contacts-color);
-    transition: color var(--transition-main);
+    transition: color var(--cubic);
     &:hover,
     &:focus {
       color: var(--accent-color);

@@ -39,7 +39,7 @@
   letter-spacing: $link-ls-main;
 
   color: var(--text-color);
-  transition: color var(--transition-main);
+  transition: color var(--cubic);
   @media screen and(min-width:1200px) {
     font-size: $link-fs-main;
     line-height: $link-lh-main;

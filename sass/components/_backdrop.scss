@@ -9,7 +9,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transform: scale(1);
-  transition: transform var(--transition-main), opacity var(--transition-main);
+  transition: transform var(--cubic), opacity var(--cubic);
   & .container {
     position: relative;
     max-width: 480px;

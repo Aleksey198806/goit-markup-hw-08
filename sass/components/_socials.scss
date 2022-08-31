@@ -6,7 +6,7 @@
   }
   &__icon {
     fill: var(--link-color);
-    transition: fill var(--transition-main);
+    transition: fill var(--cubic);
     .socials__link:hover &,
     .socials__link:focus & {
       fill: var(--light-titles-color);
@@ -22,8 +22,7 @@
   height: 44px;
   border-radius: 50%;
   &--light {
-    transition: fill var(--transition-main),
-      background-color var(--transition-main);
+    transition: fill var(--cubic), background-color var(--cubic);
   }
   &:hover,
   &:focus {
@@ -56,7 +55,7 @@
 
 .socials__link--dark {
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color var(--transition-main);
+  transition: background-color var(--cubic);
 }
 
 .socials__icon--light {
