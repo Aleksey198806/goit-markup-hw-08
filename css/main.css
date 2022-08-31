@@ -955,6 +955,11 @@ p {
   padding: 60px 0;
   background-color: var(--sec-bcg-color);
 }
+@media screen and (max-width: 1199px) {
+  .footer {
+    text-align: center;
+  }
+}
 .footer__block {
   display: inline-block;
   max-width: 232px;
