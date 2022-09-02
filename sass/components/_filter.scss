@@ -18,6 +18,7 @@
     padding: 6px 22px;
     background-color: var(--third-bcg-color);
     color: var(--titles-color);
+    box-shadow: none;
     transition: color var(--cubic), background-color var(--cubic),
       box-shadow var(--cubic);
     &:hover,

@@ -1,3 +1,17 @@
+.menu-open {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+
+  @media screen and(min-width: 768px) {
+    display: none;
+  }
+}
+
 .mob-menu {
   position: fixed;
   z-index: 1;
@@ -38,6 +52,10 @@
   border: none;
   padding: 0;
   margin-left: auto;
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
 
 .mob-nav__item {
@@ -85,9 +103,8 @@
   color: #757575;
 }
 .mob-socials {
-  @media screen and(min-width: 440px) {
-    display: flex;
-  }
+  display: flex;
+  justify-content: start;
 }
 .mob-socials__item {
   &:not(:last-child) {
