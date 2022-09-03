@@ -29,7 +29,7 @@
     line-height: $text-lh-sec;
     letter-spacing: $text-ls-main;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--first-bcg-color);
     background-color: rgba(47, 48, 58, 0.8);
   }
 }
